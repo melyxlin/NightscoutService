@@ -93,12 +93,20 @@ extension StoredSettings {
             return nil
         }
 
+        var store = ["Default": profile]
+        var defaultProfile = "Default"
+
+        if let name = UserDefaults.standard.string(forKey: "currentProfileName") {
+            defaultProfile = name
+            store[name] = profile
+        }
+
         return ProfileSet(
             startDate: date,
             units: bloodGlucoseUnit.shortLocalizedUnitString(avoidLineBreaking: false),
             enteredBy: "Loop",
-            defaultProfile: "Default",
-            store: ["Default": profile],
+            defaultProfile: defaultProfile,
+            store: store,
             settings: loopSettings,
             syncIdentifier: syncIdentifier.uuidString)
     }
