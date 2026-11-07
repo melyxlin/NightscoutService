@@ -1,4 +1,5 @@
 {
+  "originHash" : "5d5f89533cd82f4dcd8175c5dceb99b86a2076e6d8c9e3630445eb4e0c5da6aa",
   "pins" : [
     {
       "identity" : "base32",
@@ -10,13 +11,85 @@
       }
     },
     {
+      "identity" : "bluecryptor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kitura/BlueCryptor.git",
+      "state" : {
+        "revision" : "cec97c24b111351e70e448972a7d3fe68a756d6d",
+        "version" : "2.0.2"
+      }
+    },
+    {
+      "identity" : "blueecc",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kitura/BlueECC.git",
+      "state" : {
+        "revision" : "1485268a54f8135435a825a855e733f026fa6cc8",
+        "version" : "1.2.201"
+      }
+    },
+    {
+      "identity" : "bluersa",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kitura/BlueRSA.git",
+      "state" : {
+        "revision" : "f40325520344a966523b214394aa350132a6af68",
+        "version" : "1.0.203"
+      }
+    },
+    {
+      "identity" : "kituracontracts",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kitura/KituraContracts.git",
+      "state" : {
+        "revision" : "b98f087943d308e2e4331def11d7bbbe46a76dcd",
+        "version" : "2.1.0"
+      }
+    },
+    {
+      "identity" : "loggerapi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kitura/LoggerAPI.git",
+      "state" : {
+        "revision" : "c26d5ef0009fbc0945326933e0f790bd33fe9062",
+        "version" : "2.1.0"
+      }
+    },
+    {
+      "identity" : "nightscoutkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LoopKit/NightscoutKit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "6efa02d457fef8d857e347c1b6445e4707c097a4"
+      }
+    },
+    {
       "identity" : "onetimepassword",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mattrubin/OneTimePassword",
       "state" : {
         "revision" : "8e4022f2852d77240d0a17482cbfe325354aac70"
       }
+    },
+    {
+      "identity" : "swift-jwt",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kitura/Swift-JWT.git",
+      "state" : {
+        "revision" : "f68ec28fbd90a651597e9e825ea7f315f8d52a1f",
+        "version" : "4.0.1"
+      }
+    },
+    {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log.git",
+      "state" : {
+        "revision" : "e3da04078777e6a1b72ce19981fbd6539b0847d8",
+        "version" : "1.17.0"
+      }
     }
   ],
-  "version" : 2
+  "version" : 3
 }
